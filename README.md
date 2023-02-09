@@ -23,7 +23,7 @@ Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습�
 
 진행해야할 절차를 리스트 형태로 확인하는 기능을 구현하였습니다.
 
-```html
+```c#
 <picture>
 <source 
   srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
