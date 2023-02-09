@@ -4,24 +4,91 @@
 
 ## Features (담당 기능)
 
--   [Panel 진행 절차 DB 구성](#none)
--   [Panel 리스트 뷰어 기능](#panel-procedure-list-view)
--   [절차별 애니메이션 기능](#top-languages-card)
-    -   [Animation](#responsive-card-theme)
-    -   [HighLight](#responsive-card-theme)
-    -   [Guide](#responsive-card-theme)
--   [그래프로 표현된 Data 정보 열람 기능](#wakatime-week-stats)
--   [HoloLens2 Motion 적용(MRTK)](#customization)
+-   [Panel 진행 절차 DB 구성](#panel-procedure-list-view)
+-   [Panel 리스트 뷰어 기능](#panel-list-viewer)
+-   [절차별 Target에 대한 상태](#target-state)
+    -   [Animation](#animation)
+    -   [HighLight](#highlight)
+    -   [Guide](#guide)
+-   [그래프로 표현된 Data 정보 열람 기능](#graph-data-viewer)
+-   [HoloLens2 Motion 적용(MRTK)](#mrtk)
     
-## Panel Procedure List View
+## Panel Procedure List View (Panel 진행 절차 DB 구성)
 
-Copy-paste this into your markdown content, and that is it. Simple!
+Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습니다.
 
-Change the `?username=` value to your GitHub username.
+## Panel List Viewer
 
-```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+## Target State
+
+### Animation
+
+### HighLight
+
+### Guide
+
+## Graph Data Viewer
+
+## MRTK
+You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-19-specify-theme-context-for-images-in-markdown-beta/) in HTML to specify whether to display images for light or dark themes. This is done using the HTML `<picture>` element in combination with the `prefers-color-scheme` media feature.
+  
+```html
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+</picture>
 ```
 
-> **Note**
-> Available ranks are S+ (top 1%), S (top 25%), A++ (top 45%), A+ (top 60%), and B+ (everyone). The values are calculated by using the [cumulative distribution function](https://en.wikipedia.org/wiki/Cumulative_distribution_function) using commits, contributions, issues, stars, pull requests, followers, and owned repositories. The implementation can be investigated at [src/calculateRank.js](./src/calculateRank.js).
+<details>
+<summary>:eyes: Show example</summary>
+
+<picture>
+<source 
+  srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=dark"
+  media="(prefers-color-scheme: dark)"
+/>
+<source
+  srcset="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true"
+  media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+/>
+<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+</picture>
+
+</details>
+
+We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
+
+```md
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
+```
+
+<details>
+<summary>:eyes: Show example</summary>
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
+
+</details>
+
+##### Add transparent alpha channel to a themes bg_color
+
+You can use the `bg_color` parameter to make any of [the available themes](./themes/README.md) transparent. This is done by setting the `bg_color` to a colour with a transparent alpha channel (i.e. `bg_color=00000000`):
+
+```md
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&bg_color=00000000)
+```
+
+<details>
+<summary>:eyes: Show example</summary>
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&bg_color=00000000)
+
+</details>
+
+
