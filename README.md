@@ -103,6 +103,8 @@ Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습�
 </picture>
 ```
 
+<img src="https://user-images.githubusercontent.com/47016363/217997541-07d916e2-a315-4baa-97a3-63c46751ec48.png"  width="400" height="250"/>
+
 ## MRTK
 
 MRTK를 통해 가상 물체의 크기, 위치, 회전 등 조작 기능을 적용하였습니다.
