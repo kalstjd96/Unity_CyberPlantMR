@@ -126,90 +126,10 @@ public class GraphEvent : MonoBehaviour
         graphImage.sprite = Resources.Load<Sprite>("Graph/" + selectItemName);
         expandView.SetActive(true);
         GetComponent<GraphViewer>().graphList.SetActive(false);
-
-        //InitializeGraph();
-        //GetComponent<GraphViewer>().graphList.SetActive(false);
-        //this.selectItemName = selectItemName;
-        ////string query = "Select* from GraphData where " + '"' + "증강현실 배관위치" + '"' + " = '" + EventSystem.current.currentSelectedGameObject.name + "'";
-        //graphDataRowList = CSV.Read("GraphData");
-        ////graphDataRowList.Sort((x, y) => int.Parse(x["No"]).CompareTo(int.Parse(y["No"])));
-        //var temp = graphDataRowList.Where(list => list["증강현실 배관위치"].Equals(selectItemName));
-        //List<Dictionary<string, string>> selectList = temp.ToList();
-
-        //for (int i = 0; i < selectList.Count; i++)
-        //{
-        //    int index = 0;
-        //    List<double> valueList = new List<double>();
-        //    ColumnList = new List<string>();
-
-        //    foreach (var columnName in selectList[i].Keys)
-        //    {
-        //        if (index > 2)
-        //        {
-        //            ColumnList.Add(columnName);
-        //            valueList.Add(double.Parse(selectList[i][columnName].ToString()));
-        //        }
-        //        index++;
-        //    }
-        //    ShowGraph(i, valueList, selectItemName);
-        //    //계열 표시
-        //    GameObject lineItem = Instantiate(lineItemPrefab, lineItemParent);
-        //    lineItem.GetComponent<Image>().color = lineColorList[i];
-        //    lineItem.GetComponentInChildren<Text>().text = selectList[i]["기동일"].ToString();
-        //}
-        //if (selectList.Count > 1)
-        //{
-        //    for (int i = 0; i <= (dataTipList.Count / 2) - 1; i++)
-        //    {
-        //        double data1 = double.Parse(dataTipList[i].GetComponentInChildren<Text>().text);
-        //        double data2 = double.Parse(dataTipList[i + (dataTipList.Count / 2)].GetComponentInChildren<Text>().text);
-        //        int result = data1.CompareTo(data2);
-
-        //        if (result > 0) // data1이 더 큼
-        //        {
-        //            Vector3 pos = dataTipList[i].transform.localPosition;
-        //            pos.y += 20f;
-        //            dataTipList[i].transform.localPosition = pos;
-        //            Vector3 pos1 = dataTipList[i + (dataTipList.Count / 2)].transform.localPosition;
-        //            pos1.y -= 20f;
-        //            dataTipList[i + (dataTipList.Count / 2)].transform.localPosition = pos1;
-        //        }
-        //        else if (result < 0)// data2이 더 큼
-        //        {
-        //            Vector3 pos = dataTipList[i].transform.localPosition;
-        //            pos.y -= 20f;
-        //            dataTipList[i].transform.localPosition = pos;
-        //            Vector3 pos1 = dataTipList[i + (dataTipList.Count / 2)].transform.localPosition;
-        //            pos1.y += 20f;
-        //            dataTipList[i + (dataTipList.Count / 2)].transform.localPosition = pos1;
-        //        }
-        //        else
-        //        {
-        //            Vector3 pos = dataTipList[i].transform.localPosition;
-        //            pos.y += 20f;
-        //            dataTipList[i].transform.localPosition = pos;
-        //            Vector3 pos1 = dataTipList[i + (dataTipList.Count / 2)].transform.localPosition;
-        //            pos1.y += 20f;
-        //            dataTipList[i + (dataTipList.Count / 2)].transform.localPosition = pos1;
-        //        }
-        //    }
-        //}
-        //else
-        //{
-        //    for (int i = 0; i < dataTipList.Count; i++)
-        //    {
-        //        Vector3 pos = dataTipList[i].transform.localPosition;
-        //        pos.y += 30f;
-        //        dataTipList[i].transform.localPosition = pos;
-        //    }
-        //}
-        //expandView.SetActive(true);
-        //OnDataToggle_ValueChanged();
-        //OnGridToggle_ValueChanged();
     }
 
 
-    //data 점 표시
+    //data 점 표시 오픈소스 참고
     private GameObject CreateCircle(int lineIndex, float data, Vector2 anchoredPosition)
     {
         Debug.Log(lineIndex + " / " + data);
@@ -362,6 +282,7 @@ public class GraphEvent : MonoBehaviour
         }
     }
 
+    //점을 잇는 선 
     private void CreateDotConnection(int lineIndex, Vector2 dotPositionA, Vector2 dotPositionB)
     {
         GameObject gameObject = new GameObject("dotConnection", typeof(Image));
