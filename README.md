@@ -13,7 +13,7 @@
 -   [그래프로 표현된 Data 정보 열람 기능](#graph-data-viewer)
 -   [HoloLens2 Motion 적용(MRTK)](#mrtk)
     
-## Panel Procedure List View (Panel 진행 절차 DB 구성)
+## Panel Procedure List View
 
 Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습니다.
 
