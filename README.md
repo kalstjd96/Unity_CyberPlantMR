@@ -21,7 +21,6 @@ Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습�
 
 진행해야할 절차를 리스트 형태로 확인하는 기능을 구현하였습니다.
 
-
 ```c#
 <picture>
 <source 
@@ -35,9 +34,11 @@ Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습�
 <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
 </picture>
 ```
-
+<img src="https://user-images.githubusercontent.com/47016363/217998078-331fba74-9df0-4c51-ac18-9ff4d9780b5e.png"  width="400" height="250"/>
 
 ## Target State
+
+해당 절차에 대한 Target 상태를 표현하였습니다. ex. 애니메이션, 가이드 등 
 
 ### (1). Animation
 
@@ -86,6 +87,7 @@ Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습�
 <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
 </picture>
 ```
+<img src="https://user-images.githubusercontent.com/47016363/217998187-0a5727b9-833d-4189-af01-abc630d038c0.png"  width="400" height="250"/>
 
 ## Graph Data Viewer
 
