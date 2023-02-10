@@ -36,6 +36,7 @@ Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습�
 </picture>
 ```
 
+
 ## Target State
 
 ### (1). Animation
@@ -106,6 +107,6 @@ Control Panel 진행에 대한 절차를 SQLite 기반으로 DB 구성하였습�
 
 MRTK를 통해 가상 물체의 크기, 위치, 회전 등 조작 기능을 적용하였습니다.
 
-![MRTK](https://user-images.githubusercontent.com/47016363/217986555-00894438-ebaa-4e50-9ef7-49df1b70e041.png)
-
+<img src="https://user-images.githubusercontent.com/47016363/217986555-00894438-ebaa-4e50-9ef7-49df1b70e041.png"  width="400" height="250"/>
+<img src="https://user-images.githubusercontent.com/47016363/217989203-7a7d481d-4426-46e0-8399-3153e20877ce.png"  width="400" height="250"/>
 
