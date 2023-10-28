@@ -4,7 +4,7 @@
 
 ## Features (담당 기능)
 
--   [Panel 진행 절차 DB 구성](#panel-procedure-db)
+-   [Panel 진행 절차 DB 구성](#panel-procedure-projectmanager)
 -   [Panel 리스트 뷰어 기능](#panel-list-viewer)
 -   [절차별 Target에 대한 상태](#target-state)
 -   [그래프로 표현된 Data 정보 열람 기능](#graph-data-viewer)
