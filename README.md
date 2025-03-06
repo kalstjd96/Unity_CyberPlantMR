@@ -116,5 +116,9 @@ for (int i = 0; i < targets.Length; i++)
 <img src="https://user-images.githubusercontent.com/47016363/217986555-00894438-ebaa-4e50-9ef7-49df1b70e041.png" width="400"/> 
 <img src="https://user-images.githubusercontent.com/47016363/217989203-7a7d481d-4426-46e0-8399-3153e20877ce.png" width="400"/>
 
+<br><br><br>
+
+## 🎥 실행 영상 (GIF)
+<img src="https://user-images.githubusercontent.com/47016363/218071476-ad655fce-a0c6-4e88-986e-1f27d65ea778.gif" width="800"/>
 
 
