@@ -119,5 +119,5 @@ for (int i = 0; i < targets.Length; i++)
 <br><br><br>
 
 ## 🎥 실행 영상 (GIF)
-<img src="Image/Cyberplant_HoloLens2_EDGPanel_-ezgif.com-video-to-gif-converter.gif" width="800"/>
+<img src="https://raw.githubusercontent.com/kalstjd96/Unity_CyberPlantMR/main/Image/Cyberplant_HoloLens2_EDGPanel_-ezgif.com-video-to-gif-converter.gif" width="800"/>
 
