@@ -51,6 +51,8 @@ public void OnClickModeButton(string tableName)
 
 ➡ **📂 전체 코드 보기**: [ProjectManager.cs (L53-L59)](https://github.com/kalstjd96/KEPCO_VR_Scenario/blob/main/Scripts/ProjectManager.cs#L53-L59)
 
+<br><br><br>
+
 
 ### 📋 **2. Panel 리스트 뷰어** <a id="panel-list-viewer"></a>
 > **사용된 스크립트**: ProcedureList.cs
@@ -75,6 +77,8 @@ public void Create()
 
 <img src="https://user-images.githubusercontent.com/47016363/217998078-331fba74-9df0-4c51-ac18-9ff4d9780b5e.png" width="400"/>
 
+<br><br><br>
+
 ### 🎯 **3. Target 상태 표현** <a id="target-state"></a>
 
 > **사용된 스크립트**: Highlight.cs, GuideMessage.cs
@@ -89,17 +93,21 @@ for (int i = 0; i < targets.Length; i++)
 }
 ```
 
-➡ **📂 전체 코드 보기**: [ProcedureList.cs](https://github.com/kalstjd96/KEPCO_VR_Scenario/blob/main/Scripts/Highlight.cs)
+➡ **📂 전체 코드 보기**: [ProcedureList.cs](https://github.com/kalstjd96/KEPCO_VR_Scenario/blob/main/Scripts/Highlight.cs)<br>
 ➡ **📂 전체 코드 보기**: [ProcedureList.cs](https://github.com/kalstjd96/KEPCO_VR_Scenario/blob/main/Scripts/GuideMessage.cs)
 
 <img src="https://user-images.githubusercontent.com/47016363/217998187-0a5727b9-833d-4189-af01-abc630d038c0.png" width="400"/>
 
+
+<br><br><br>
 
 ### 📊 **4. Graph Data Viewer** <a id="graph-data-viewer"></a>
 > 사용된 오픈소스 라이브러리
 > 데이터베이스에서 값을 가져와 실시간으로 그래프를 렌더링합니다.
 
 <img src="https://user-images.githubusercontent.com/47016363/217997541-07d916e2-a315-4baa-97a3-63c46751ec48.png" width="400"/>
+
+<br><br><br>
 
 ### 🛠 **5. MRTK 적용 (HoloLens 2 인터랙션)** <a id="mrtk"></a>
 > MRTK를 활용하여 가상 오브젝트 조작 기능을 구현했습니다.
